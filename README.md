@@ -6,7 +6,6 @@ Il s'agit d'un exercice pour tester votre expérience technique avec NodeJs et l
 - une entreprise est composé de plusieurs utilisateurs ( des employés  et a un CEO ).
 - un utilisateur peut etre un CEO ou un employé.
 - Un 'utilisateur' employé peut avoir plusieurs 'missions' et une 'mission' peut être attribuée à plusieurs 'utilisateurs' employés. (les CEO n'ont pas de missions).
-- Une 'Mission' est liée à une 'Entreprise' et ne peut être assignée qu'à ses employés.
 
 
 ##### Models
@@ -34,7 +33,6 @@ Une mission a :
 - description
 - date de création (remplissage automatique)
 - employés
-- entreprise
 
 ##### Validation
 - Tous les id doivent être configurés pour être INTEGER AUTO INCREMENT pour le processus de validation.
