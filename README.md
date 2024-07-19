@@ -42,7 +42,7 @@ Une mission a :
 - Implémenter une API qui permet d'ajouter un utilisateur avec la possibilité d'uploader une photo de profil ( vous pouvez sauvegarder les photos dans le dossier uploads).
 Elle retourne l'utilisateur ajouté en cas de succès ou une erreur dans le cas contraire.
 
-- Implémenter une API qui permet d'afficher la liste des utilisateurs avec le nom de leurs entreprise..
+- Implémenter une API qui permet d'afficher la liste des utilisateurs.
 Elle retourne la liste des utilisateurs en cas de succès ou une erreur dans le cas contraire.
 
 
