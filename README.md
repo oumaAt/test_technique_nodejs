@@ -10,36 +10,27 @@ Il s'agit d'un exercice pour tester votre expérience technique avec NodeJs et l
 - un utilisateur peut etre un CEO ou un employé.
 - Un employé peut avoir plusieurs 'missions' et une 'mission' peut être attribuée à plusieurs employés. (les CEO n'ont pas de missions).
 
-##### Models
 
-###### Utilisateur
+- chaque utilisateur a un :
 
-chaque utilisateur a un(e) :
+  nom
+  prénom
+  email (unique et obligatoire)
+  mot de passe (obligatoire)
+  num de téléphone
+  photo de profile
+  role (CEO ou employé)
 
-- nom
-- prénom
-- email (unique et obligatoire)
-- mot de passe (obligatoire)
-- num de téléphone
-- photo de profile
-- role (CEO ou employé)
 
-###### Entreprise
+- Une entreprise a :
+  un nom (obligatoire)
 
-Une société a :
 
-- un nom (obligatoire)
-- un ceo
-- des employés
+- Une mission a :
 
-###### Mission
-
-Une mission a :
-
-- titre (obligatoire)
-- description
-- date de création (remplissage automatique)
-- employés
+  titre (obligatoire)
+  description
+  date de création (remplissage automatique)
 
 ##### Validation
 
